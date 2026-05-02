@@ -1,0 +1,56 @@
+#contact {
+  width: 350px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus {
+  border-color: blue;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+  text-align: left;
+}
+
+#successMsg {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}

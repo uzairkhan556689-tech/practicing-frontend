@@ -11,10 +11,32 @@
             padding: 20px;
         }
     </style>
-    <div id="header-container"></div>
-    <script src="./pageChanger.js"></script>
+  
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    
+      <div id="header-container"></div>
+    <script src="./pageChanger.js"></script>
+  
+
+ <section id="contact">
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Enter your name">
+    <span id="nameError" class="error"></span>
+
+    <input type="email" id="email" placeholder="Enter your email">
+    <span id="emailError" class="error"></span>
+
+    <textarea id="message" placeholder="Enter your message"></textarea>
+    <span id="messageError" class="error"></span>
+
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="successMsg"></p>
+</section>
+
 </body>
 </html>
