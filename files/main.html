@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./main.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,6 +16,12 @@
 </head>
 <body>
     <div id="header-container"></div>
+    <div id="category-filter">
+        <label for="category-select">Filter by Category:</label>
+        <select id="category-select">
+            <option value="all">All Categories</option>
+        </select>
+    </div>
     <ul id="products-list"></ul>
     <script src="./pageChanger.js"></script>
     <script src="./loadProducts.js"></script>
