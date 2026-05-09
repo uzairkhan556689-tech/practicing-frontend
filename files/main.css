@@ -42,41 +42,116 @@ body {
 }
 
 #products-list {
-    list-style: none;
     padding: 0;
     margin: 0 auto 40px;
     max-width: 1200px;
+}
+
+.category-section {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(24, 39, 75, 0.05);
+    margin-bottom: 22px;
+}
+
+.category-section h2 {
+    margin: 0 0 18px;
+    font-size: 1.3rem;
+    color: #111;
+}
+
+.category-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 18px;
 }
 
-#products-list li {
+.product-item {
     background-color: #ffffff;
-    border-radius: 16px;
-    padding: 20px;
+    border-radius: 18px;
+    overflow: hidden;
     box-shadow: 0 8px 20px rgba(24, 39, 75, 0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
-#products-list li:hover {
+.product-item:hover {
     transform: translateY(-4px);
     box-shadow: 0 14px 30px rgba(24, 39, 75, 0.12);
 }
 
-#products-list li h2,
-#products-list li p {
-    margin: 0 0 10px;
+.product-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
 }
 
-#products-list li h2 {
+.product-info {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.product-info h3 {
+    margin: 0;
     font-size: 1.1rem;
     color: #111;
 }
 
-#products-list li p {
+.product-info .price {
+    margin: 0;
+    font-weight: 700;
+    color: #2563eb;
+}
+
+.product-info .snippet {
+    margin: 0;
     color: #555;
     line-height: 1.5;
+}
+
+.detail-button {
+    border: none;
+    background-color: #2563eb;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+    width: fit-content;
+}
+
+.detail-button:hover {
+    background-color: #1d4ed8;
+}
+
+.product-detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease, padding 0.25s ease;
+    color: #475569;
+}
+
+.product-detail.visible {
+    max-height: 240px;
+    padding-top: 12px;
+}
+
+.product-detail p {
+    margin: 0 0 10px;
+}
+
+.product-detail p:last-child {
+    margin-bottom: 0;
 }
 
 @media (max-width: 720px) {

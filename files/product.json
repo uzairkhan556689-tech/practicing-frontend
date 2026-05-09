@@ -1,272 +1,272 @@
 [
-    {
-        "id": 1,
-        "name": "Wireless Bluetooth Headphones",
-        "price": 49.99,
-        "description": "High-quality wireless headphones with noise cancellation.",
-        "category": "Electronics",
-        "image": "https://example.com/headphones.jpg",
-        "stock": 100
-    },
-    {
-        "id": 2,
-        "name": "Smartphone Case",
-        "price": 19.99,
-        "description": "Protective case for smartphones with shock absorption.",
-        "category": "Accessories",
-        "image": "https://example.com/case.jpg",
-        "stock": 200
-    },
-    {
-        "id": 3,
-        "name": "Coffee Maker",
-        "price": 79.99,
-        "description": "Automatic drip coffee maker with programmable timer.",
-        "category": "Appliances",
-        "image": "https://example.com/coffeemaker.jpg",
-        "stock": 50
-    },
-    {
-        "id": 4,
-        "name": "Running Shoes",
-        "price": 89.99,
-        "description": "Comfortable running shoes with arch support.",
-        "category": "Footwear",
-        "image": "https://example.com/shoes.jpg",
-        "stock": 75
-    },
-    {
-        "id": 5,
-        "name": "Laptop Stand",
-        "price": 29.99,
-        "description": "Adjustable laptop stand for ergonomic use.",
-        "category": "Office Supplies",
-        "image": "https://example.com/stand.jpg",
-        "stock": 150
-    },
-    {
-        "id": 6,
-        "name": "Yoga Mat",
-        "price": 24.99,
-        "description": "Non-slip yoga mat with extra cushioning.",
-        "category": "Sports",
-        "image": "https://example.com/mat.jpg",
-        "stock": 120
-    },
-    {
-        "id": 7,
-        "name": "LED Desk Lamp",
-        "price": 39.99,
-        "description": "Energy-efficient LED lamp with adjustable brightness.",
-        "category": "Lighting",
-        "image": "https://example.com/lamp.jpg",
-        "stock": 80
-    },
-    {
-        "id": 8,
-        "name": "Water Bottle",
-        "price": 14.99,
-        "description": "Insulated stainless steel water bottle.",
-        "category": "Kitchen",
-        "image": "https://example.com/bottle.jpg",
-        "stock": 300
-    },
-    {
-        "id": 9,
-        "name": "Wireless Mouse",
-        "price": 19.99,
-        "description": "Ergonomic wireless mouse with long battery life.",
-        "category": "Electronics",
-        "image": "https://example.com/mouse.jpg",
-        "stock": 90
-    },
-    {
-        "id": 10,
-        "name": "Backpack",
-        "price": 49.99,
-        "description": "Durable backpack with multiple compartments.",
-        "category": "Bags",
-        "image": "https://example.com/backpack.jpg",
-        "stock": 60
-    },
-    {
-        "id": 11,
-        "name": "Blender",
-        "price": 59.99,
-        "description": "High-speed blender for smoothies and soups.",
-        "category": "Appliances",
-        "image": "https://example.com/blender.jpg",
-        "stock": 40
-    },
-    {
-        "id": 12,
-        "name": "Sunglasses",
-        "price": 34.99,
-        "description": "Polarized sunglasses with UV protection.",
-        "category": "Accessories",
-        "image": "https://example.com/sunglasses.jpg",
-        "stock": 110
-    },
-    {
-        "id": 13,
-        "name": "Notebook",
-        "price": 9.99,
-        "description": "Spiral-bound notebook with lined pages.",
-        "category": "Stationery",
-        "image": "https://example.com/notebook.jpg",
-        "stock": 250
-    },
-    {
-        "id": 14,
-        "name": "Dumbbells Set",
-        "price": 69.99,
-        "description": "Adjustable dumbbells for home workouts.",
-        "category": "Sports",
-        "image": "https://example.com/dumbbells.jpg",
-        "stock": 30
-    },
-    {
-        "id": 15,
-        "name": "Smartwatch",
-        "price": 199.99,
-        "description": "Fitness tracking smartwatch with heart rate monitor.",
-        "category": "Electronics",
-        "image": "https://example.com/smartwatch.jpg",
-        "stock": 25
-    },
-    {
-        "id": 16,
-        "name": "Throw Pillow",
-        "price": 24.99,
-        "description": "Decorative throw pillow with soft fabric.",
-        "category": "Home Decor",
-        "image": "https://example.com/pillow.jpg",
-        "stock": 180
-    },
-    {
-        "id": 17,
-        "name": "Toaster",
-        "price": 39.99,
-        "description": "4-slice toaster with adjustable settings.",
-        "category": "Appliances",
-        "image": "https://example.com/toaster.jpg",
-        "stock": 70
-    },
-    {
-        "id": 18,
-        "name": "Hiking Boots",
-        "price": 119.99,
-        "description": "Waterproof hiking boots with ankle support.",
-        "category": "Footwear",
-        "image": "https://example.com/boots.jpg",
-        "stock": 45
-    },
-    {
-        "id": 19,
-        "name": "Desk Organizer",
-        "price": 19.99,
-        "description": "Multi-compartment desk organizer for office supplies.",
-        "category": "Office Supplies",
-        "image": "https://example.com/organizer.jpg",
-        "stock": 140
-    },
-    {
-        "id": 20,
-        "name": "Resistance Bands",
-        "price": 14.99,
-        "description": "Set of resistance bands for strength training.",
-        "category": "Sports",
-        "image": "https://example.com/bands.jpg",
-        "stock": 160
-    },
-    {
-        "id": 21,
-        "name": "Floor Lamp",
-        "price": 79.99,
-        "description": "Modern floor lamp with dimming feature.",
-        "category": "Lighting",
-        "image": "https://example.com/floorlamp.jpg",
-        "stock": 55
-    },
-    {
-        "id": 22,
-        "name": "Mug Set",
-        "price": 29.99,
-        "description": "Set of 4 ceramic mugs with unique designs.",
-        "category": "Kitchen",
-        "image": "https://example.com/mugs.jpg",
-        "stock": 220
-    },
-    {
-        "id": 23,
-        "name": "Keyboard",
-        "price": 49.99,
-        "description": "Mechanical keyboard with backlit keys.",
-        "category": "Electronics",
-        "image": "https://example.com/keyboard.jpg",
-        "stock": 85
-    },
-    {
-        "id": 24,
-        "name": "Tote Bag",
-        "price": 24.99,
-        "description": "Canvas tote bag with reinforced handles.",
-        "category": "Bags",
-        "image": "https://example.com/tote.jpg",
-        "stock": 130
-    },
-    {
-        "id": 25,
-        "name": "Air Fryer",
-        "price": 99.99,
-        "description": "Compact air fryer for healthy cooking.",
-        "category": "Appliances",
-        "image": "https://example.com/airfryer.jpg",
-        "stock": 35
-    },
-    {
-        "id": 26,
-        "name": "Hat",
-        "price": 19.99,
-        "description": "Stylish baseball cap with adjustable strap.",
-        "category": "Accessories",
-        "image": "https://example.com/hat.jpg",
-        "stock": 170
-    },
-    {
-        "id": 27,
-        "name": "Pen Set",
-        "price": 9.99,
-        "description": "Set of 10 gel pens in assorted colors.",
-        "category": "Stationery",
-        "image": "https://example.com/pens.jpg",
-        "stock": 280
-    },
-    {
-        "id": 28,
-        "name": "Treadmill",
-        "price": 499.99,
-        "description": "Foldable treadmill with incline adjustment.",
-        "category": "Sports",
-        "image": "https://example.com/treadmill.jpg",
-        "stock": 15
-    },
-    {
-        "id": 29,
-        "name": "Wall Clock",
-        "price": 39.99,
-        "description": "Modern wall clock with silent movement.",
-        "category": "Home Decor",
-        "image": "https://example.com/clock.jpg",
-        "stock": 95
-    },
-    {
-        "id": 30,
-        "name": "Vacuum Cleaner",
-        "price": 149.99,
-        "description": "Cordless vacuum with HEPA filter.",
-        "category": "Appliances",
-        "image": "https://example.com/vacuum.jpg",
-        "stock": 65
-    }
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 49.99,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "category": "Electronics",
+    "image": "Products_images/headphone.jpg",
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Case",
+    "price": 19.99,
+    "description": "Protective case for smartphones with shock absorption.",
+    "category": "Accessories",
+    "image": "Products_images/smartphone_case.jpg",
+    "stock": 200
+  },
+  {
+    "id": 3,
+    "name": "Coffee Maker",
+    "price": 79.99,
+    "description": "Automatic drip coffee maker with programmable timer.",
+    "category": "Appliances",
+    "image": "Products_images/coffee_maker.jpg",
+    "stock": 50
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "description": "Comfortable running shoes with arch support.",
+    "category": "Footwear",
+    "image": "Products_images/running_shoes.jpg",
+    "stock": 75
+  },
+  {
+    "id": 5,
+    "name": "Laptop Stand",
+    "price": 29.99,
+    "description": "Adjustable laptop stand for ergonomic use.",
+    "category": "Office Supplies",
+    "image": "Products_images/laptop_stand.jpg",
+    "stock": 150
+  },
+  {
+    "id": 6,
+    "name": "Yoga Mat",
+    "price": 24.99,
+    "description": "Non-slip yoga mat with cushioning.",
+    "category": "Sports",
+    "image": "Products_images/yoga_mat.jpg",
+    "stock": 120
+  },
+  {
+    "id": 7,
+    "name": "LED Desk Lamp",
+    "price": 39.99,
+    "description": "Energy-efficient LED lamp with brightness control.",
+    "category": "Lighting",
+    "image": "Products_images/led_desk_lamp.jpg",
+    "stock": 80
+  },
+  {
+    "id": 8,
+    "name": "Water Bottle",
+    "price": 14.99,
+    "description": "Insulated stainless steel water bottle.",
+    "category": "Kitchen",
+    "image": "Products_images/water_bottle.jpg",
+    "stock": 300
+  },
+  {
+    "id": 9,
+    "name": "Wireless Mouse",
+    "price": 19.99,
+    "description": "Ergonomic wireless mouse.",
+    "category": "Electronics",
+    "image": " Products_images/mouse.jpg",
+    "stock": 90
+  },
+  {
+    "id": 10,
+    "name": "Backpack",
+    "price": 49.99,
+    "description": "Durable backpack with compartments.",
+    "category": "Bags",
+    "image": "Products_images/backpack.jpg",
+    "stock": 60
+  },
+  {
+    "id": 11,
+    "name": "Blender",
+    "price": 59.99,
+    "description": "High-speed blender for smoothies.",
+    "category": "Appliances",
+    "image": "Products_images/blender.jpg",
+    "stock": 40
+  },
+  {
+    "id": 12,
+    "name": "Sunglasses",
+    "price": 34.99,
+    "description": "UV protection sunglasses.",
+    "category": "Accessories",
+    "image": "Products_images/sunglasses.jpg",
+    "stock": 110
+  },
+  {
+    "id": 13,
+    "name": "Notebook",
+    "price": 9.99,
+    "description": "Spiral notebook for notes.",
+    "category": "Stationery",
+    "image": "Products_images/notebook.jpg",
+    "stock": 250
+  },
+  {
+    "id": 14,
+    "name": "Dumbbells Set",
+    "price": 69.99,
+    "description": "Adjustable dumbbells for fitness.",
+    "category": "Sports",
+    "image": "Products_images/dumbbells_set.jpg",
+    "stock": 30
+  },
+  {
+    "id": 15,
+    "name": "Smartwatch",
+    "price": 199.99,
+    "description": "Fitness tracking smartwatch.",
+    "category": "Electronics",
+    "image": "Products_images/smart_watch.jpg",
+    "stock": 25
+  },
+  {
+    "id": 16,
+    "name": "Throw Pillow",
+    "price": 24.99,
+    "description": "Soft decorative pillow.",
+    "category": "Home Decor",
+    "image": "Products_images/throw_pillow.jpg",
+    "stock": 180
+  },
+  {
+    "id": 17,
+    "name": "Toaster",
+    "price": 39.99,
+    "description": "4-slice toaster.",
+    "category": "Appliances",
+    "image": "Products_images/toaster.jpg",
+    "stock": 70
+  },
+  {
+    "id": 18,
+    "name": "Hiking Boots",
+    "price": 119.99,
+    "description": "Waterproof hiking boots.",
+    "category": "Footwear",
+    "image": "Products_images/hiking_boots.jpg",
+    "stock": 45
+  },
+  {
+    "id": 19,
+    "name": "Desk Organizer",
+    "price": 19.99,
+    "description": "Office desk organizer.",
+    "category": "Office Supplies",
+    "image": "Products_images/desk_organizer.jpg",
+    "stock": 140
+  },
+  {
+    "id": 20,
+    "name": "Resistance Bands",
+    "price": 14.99,
+    "description": "Workout resistance bands.",
+    "category": "Sports",
+    "image": "Products_images/resistance_bands.jpg",
+    "stock": 160
+  },
+  {
+    "id": 21,
+    "name": "Floor Lamp",
+    "price": 79.99,
+    "description": "Modern floor lamp.",
+    "category": "Lighting",
+    "image": "Products_images/floor_lamp.jpg",
+    "stock": 55
+  },
+  {
+    "id": 22,
+    "name": "Mug Set",
+    "price": 29.99,
+    "description": "Ceramic mug set.",
+    "category": "Kitchen",
+    "image": "Products_images/mug_set.jpg",
+    "stock": 220
+  },
+  {
+    "id": 23,
+    "name": "Keyboard",
+    "price": 49.99,
+    "description": "Mechanical keyboard.",
+    "category": "Electronics",
+    "image": "Products_images/keyboard.jpg",
+    "stock": 85
+  },
+  {
+    "id": 24,
+    "name": "Tote Bag",
+    "price": 24.99,
+    "description": "Canvas tote bag.",
+    "category": "Bags",
+    "image": "Products_images/tote_bag.jpg",
+    "stock": 130
+  },
+  {
+    "id": 25,
+    "name": "Air Fryer",
+    "price": 99.99,
+    "description": "Healthy cooking air fryer.",
+    "category": "Appliances",
+    "image": "Products_images/air_fryer.jpg",
+    "stock": 35
+  },
+  {
+    "id": 26,
+    "name": "Hat",
+    "price": 19.99,
+    "description": "Stylish cap hat.",
+    "category": "Accessories",
+    "image": "Products_images/hat.jpg",
+    "stock": 170
+  },
+  {
+    "id": 27,
+    "name": "Pen Set",
+    "price": 9.99,
+    "description": "Colorful pen set.",
+    "category": "Stationery",
+    "image": "Products_images/pen_set.jpg",
+    "stock": 280
+  },
+  {
+    "id": 28,
+    "name": "Treadmill",
+    "price": 499.99,
+    "description": "Foldable treadmill.",
+    "category": "Sports",
+    "image": "Products_images/treadmill.jpg",
+    "stock": 15
+  },
+  {
+    "id": 29,
+    "name": "Wall Clock",
+    "price": 39.99,
+    "description": "Modern wall clock.",
+    "category": "Home Decor",
+    "image": "Products_images/wall_clock.jpg",
+    "stock": 95
+  },
+  {
+    "id": 30,
+    "name": "Vacuum Cleaner",
+    "price": 149.99,
+    "description": "Cordless vacuum cleaner.",
+    "category": "Appliances",
+    "image": "Products_images/vacuum_cleaner.jpg",
+    "stock": 65
+  }
 ]
