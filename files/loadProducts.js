@@ -29,6 +29,16 @@ function createProductItem(product) {
     snippet.textContent = product.description;
 
     const detailButton = document.createElement('button');
+    detailButton.addEventListener('click', () => {
+        // Use the product's numeric ID directly
+        const productId = product.id;
+    
+        // Debugging: Log the product ID
+        console.log('Redirecting to:', `./productDetails.html?id=${productId}`);
+    
+        // Redirect to the next page with the product ID in the URL
+        window.location.href = `./productDetails.html?id=${productId}`;
+    });
     detailButton.type = 'button';
     detailButton.className = 'detail-button';
     detailButton.textContent = 'View Details';

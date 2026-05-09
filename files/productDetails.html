@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <script>
+        // Get the product ID from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        const product = products.find(p => p.id == productId);
+
+        if (product) {
+            document.getElementById('product-name').textContent = product.name;
+            document.getElementById('product-description').textContent = product.description;
+            document.getElementById('product-price').textContent = `$${product.price.toFixed(2)}`;
+            document.getElementById('product-category').textContent = product.category;
+            document.getElementById('product-stock').textContent = product.stock;
+        } else {
+            document.querySelector('.product-details').innerHTML = '<h1>Product not found</h1>';
+        }
+    </script>
+</body>
+</html>
