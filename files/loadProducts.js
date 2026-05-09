@@ -41,10 +41,10 @@ function createProductItem(product) {
         <p>${product.description}</p>
     `;
 
-    detailButton.addEventListener('click', () => {
-        const visible = detail.classList.toggle('visible');
-        detailButton.textContent = visible ? 'Hide Details' : 'View Details';
-    });
+    // detailButton.addEventListener('click', () => {
+    //     const visible = detail.classList.toggle('visible');
+    //     detailButton.textContent = visible ? 'Hide Details' : 'View Details';
+    // });
 
     info.appendChild(title);
     info.appendChild(price);
