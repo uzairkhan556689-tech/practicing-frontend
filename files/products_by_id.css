@@ -1,0 +1,106 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0 green,0 blue,1 alpha);
+  padding: 30px;
+
+}
+.product_detile{
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #eee;
+}
+/* .product_image{
+  flex: 0 0 400px;
+} */
+.product_image img{
+  width: 100;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.product_info{
+   flex: 1;
+}
+.product_info h1{
+  font-size: 32px;
+  color: #222;
+  margin-bottom:15px ;
+
+}
+.product_price{
+  font-size: 28px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.product_descrip{
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom:20px ;
+}
+
+.similar_section{
+ margin-top: 40px;
+ border-top: 2px solid #eee;
+
+}
+.similar_titel{
+ font-size: 24px;
+ margin-bottom: 20px;
+}
+.simialr_container{
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+.similar_card{
+  min-width: 180px;
+  border: 1px solid #ddd;
+  border-radius:8px ;
+  padding: 12px;
+  text-align: center;
+
+}
+.similar_card:hover{
+  box-shadow:  0 15px rgba(0,0,0,0.1);
+}
+.similar_imag{
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+
+}
+.sim_name{
+
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+}.price{
+  font-size: 16px;
+  font-weight: 600;
+  color: #007bff;
+}
+.view-btn{
+  background: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 8px;
+}
