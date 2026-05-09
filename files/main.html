@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./main.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,12 +17,19 @@
         }
 
     </style>
-    <div id="header-container"></div>
-    <script src="./pageChanger.js"></script>
+    
 </head>
 <body>
-
-    <p id="main_intro"><span class="main_intro_first">Lorem ipsum dolor sit amet consectetur</span> adipisicing elit. Doloremque soluta pariatur enim corrupti optio voluptatum obcaecati ipsa odit accusamus laboriosam vero pluptates eligendi rerum facere illo cum quae inventore quia, deserunt aut ex sunt? Dolores eligendi esse fugiat nostrum! Ducimus numquam aut tempora perferendis maiores, consequuntur molestiae iste ullam explicabo sequi nulla delectus deleniti beatae quis necessitatibus nemo, quod quo eos mollitia. Eaque obcaecati quidem delectus rerum dolor, quis tempora quas voluptatem illum quaerat in sapiente inventore nesciunt, quibusdam enim? Molestiae culpa quam commodi a maxime vero, pariatur voluptatem libero eligendi, tenetur eveniet non doloremque rem quae unde, mollitia debitis nihil. Explicabo nemo labore inventore molestias dignissimos ea vero voluptatem voluptates assumenda. Sit soluta nemo inventore sapiente, sed fuga error, corporis maxime ea perspiciatis veritatis commodi ipsum blanditiis, corrupti labore sequi asperiores. Ut odio quis neque quae! Quis nemo facere suscipit eaque repellat accusantium beatae! Veritatis blanditiis quo dolores possimus enim labore autem delectus eligendi. Iusto inventore neque amet corrupti veritatis illum odio aspernatur voluptatem. Tempora sint quas eligendi perspiciatis modi unde praesentium nobis suscipit inventore! Accusantium beatae ea voluptatem officiis nam aspernatur veritatis assumenda fuga dolores. Earum ullam aspernatur quibusdam magni, odio sit quam impedit sapiente nostrum ipsum, consequuntur eum aliquid fugit quis optio! Dolores porro, atque nobis sed impedit perferendis eos maxime cupiditate esse sint, dolore iure aliquid saepe reiciendis, voluptas nostrum vitae minus enim molestias temporibus. Consequatur nulla possimus, dolores sunt saepe id, numquam fugit obcaecati perspiciatis veritatis quod accusamus harum nam magnam cumque laboriosam mollitia voluptatem accusantium repellat in dolorem. Quisquam ducimus doloremque nesciunt provident eius, voluptas numquam consectetur facere id ullam? A nobis eos aspernatur, quod consequatur fugit quaerat excepturi sequi! Distinctio voluptatem vitae quia ea dolores itaque debitis molestiae, incidunt blanditiis qui at sequi, inventore laboriosam? Eum nulla saepe eligendi fuga, explicabo iure tinctio expedita repellat earum numquam sed ea, facilis adipisci tenetur quos aspernatur, iste consequuntur incidunt blanditiis, optio sequi  nam harum repellendus. Consequatur minus laborum soluta, tempora sed nihil incidunt saepe labore perferendis cumque mollitia veritatis id quisquam voluptates magnam sint illum. Vitae ad numquam dicta sapiente! Ullam alias facilis at officiis. Culpa animi, voluptatem natus saepe eos quis quo doloribus ullam eum delectus!</p>
+    <div id="header-container"></div>
+    <div id="category-filter">
+        <label for="category-select">Filter by Category:</label>
+        <select id="category-select">
+            <option value="all">All Categories</option>
+        </select>
+    </div>
+    <ul id="products-list"></ul>
+    <script src="./pageChanger.js"></script>
+    <script src="./loadProducts.js"></script>
 </body>
 </html>
 
