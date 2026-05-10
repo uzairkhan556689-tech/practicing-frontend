@@ -28,19 +28,19 @@
         <img src="${product.image}"width="200"/>
     </div>
      <div class = "product_info">
-
       <spn>${product.category}</spn>
       <h1>${product.name}</h1>
-      <p class="product_price"> price :${product.price}$</p>
+      <p class="product_price"> price :$ ${product.price}</p>
        <p class="product_stock"> stock: ${product.stock}</p>
         <p class="product_descrip">${product.description}</p>
+        <p>Rating : ${product.rating}⭐⭐⭐⭐<p>
 
        </div>
       
       </div>
     `;
             //  similar products of previous id 
-            const similar = products.filter(
+            const similar= products.filter(
               (p) => p.category === product.category && p.id != product.id
             );
             console.log("this is filterd products: ", similar);
@@ -56,6 +56,7 @@
             <img   class ="similar_imag"src="${product.image}"width="200"/>
             <h4 class="sim_name">${product.name}</h4>
           <p class="price">price:${product.price}$</p>
+          <p>Rating : ${product.rating}⭐⭐⭐⭐<p>
           <a  class="view-btn" href="productDetails.html?id=${product.id}">view detile</a>
             </div>
             `;
@@ -67,28 +68,7 @@
             console.log(" products is not found..");
           }
 
-          const simbox=document.getElementById('similar')
-          console.log(simbox);
-          
-            
-          let htmlsimlir='';
 
-          similar.forEach(product => {
-            htmlsimlir+=`
-            <div class="similar_card">
-            <img   class ="similar_imag"src="${product.image}"width="200"/>
-            <h4 class="sim_name">${product.name}</h4>
-          <p class="price">price:${product.price}$</p>
-          <a  class="view-btn" href="productDetails.html?id=${product.id}">view detile</a>
-
-            
-
-            </div>
-            
-            `
-            
-          });
-          simbox.innerHTML=htmlsimlir
            
 
           

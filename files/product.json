@@ -6,7 +6,8 @@
     "description": "High-quality wireless headphones with noise cancellation.",
     "category": "Electronics",
     "image": "Products_images/headphone.jpg",
-    "stock": 100
+    "stock": 100,
+    "rating":4
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "description": "Protective case for smartphones with shock absorption.",
     "category": "Accessories",
     "image": "Products_images/smartphone_case.jpg",
-    "stock": 200
+    "stock": 200,
+       "rating":4
   },
   {
     "id": 3,
@@ -24,7 +26,9 @@
     "description": "Automatic drip coffee maker with programmable timer.",
     "category": "Appliances",
     "image": "Products_images/coffee_maker.jpg",
-    "stock": 50
+    "stock": 50,
+     "rating":4
+    
   },
   {
     "id": 4,
@@ -33,7 +37,8 @@
     "description": "Comfortable running shoes with arch support.",
     "category": "Footwear",
     "image": "Products_images/running_shoes.jpg",
-    "stock": 75
+    "stock": 75,
+     "rating":4
   },
   {
     "id": 5,
@@ -42,7 +47,8 @@
     "description": "Adjustable laptop stand for ergonomic use.",
     "category": "Office Supplies",
     "image": "Products_images/laptop_stand.jpg",
-    "stock": 150
+    "stock": 150,
+     "rating":4
   },
   {
     "id": 6,
@@ -51,7 +57,8 @@
     "description": "Non-slip yoga mat with cushioning.",
     "category": "Sports",
     "image": "Products_images/yoga_mat.jpg",
-    "stock": 120
+    "stock": 120,
+     "rating":4
   },
   {
     "id": 7,
@@ -60,7 +67,8 @@
     "description": "Energy-efficient LED lamp with brightness control.",
     "category": "Lighting",
     "image": "Products_images/led_desk_lamp.jpg",
-    "stock": 80
+    "stock": 80,
+     "rating":4
   },
   {
     "id": 8,
@@ -69,7 +77,8 @@
     "description": "Insulated stainless steel water bottle.",
     "category": "Kitchen",
     "image": "Products_images/water_bottle.jpg",
-    "stock": 300
+    "stock": 300,
+     "rating":4
   },
   {
     "id": 9,
@@ -78,7 +87,8 @@
     "description": "Ergonomic wireless mouse.",
     "category": "Electronics",
     "image": " Products_images/mouse.jpg",
-    "stock": 90
+    "stock": 90,
+     "rating":4
   },
   {
     "id": 10,
@@ -87,7 +97,8 @@
     "description": "Durable backpack with compartments.",
     "category": "Bags",
     "image": "Products_images/backpack.jpg",
-    "stock": 60
+    "stock": 60,
+     "rating":4
   },
   {
     "id": 11,
@@ -96,7 +107,8 @@
     "description": "High-speed blender for smoothies.",
     "category": "Appliances",
     "image": "Products_images/blender.jpg",
-    "stock": 40
+    "stock": 40,
+     "rating":4
   },
   {
     "id": 12,
@@ -105,7 +117,8 @@
     "description": "UV protection sunglasses.",
     "category": "Accessories",
     "image": "Products_images/sunglasses.jpg",
-    "stock": 110
+    "stock": 110,
+     "rating":4
   },
   {
     "id": 13,
@@ -114,7 +127,8 @@
     "description": "Spiral notebook for notes.",
     "category": "Stationery",
     "image": "Products_images/notebook.jpg",
-    "stock": 250
+    "stock": 250,
+     "rating":4
   },
   {
     "id": 14,
@@ -123,7 +137,8 @@
     "description": "Adjustable dumbbells for fitness.",
     "category": "Sports",
     "image": "Products_images/dumbbells_set.jpg",
-    "stock": 30
+    "stock": 30,
+     "rating":4
   },
   {
     "id": 15,
@@ -132,7 +147,8 @@
     "description": "Fitness tracking smartwatch.",
     "category": "Electronics",
     "image": "Products_images/smart_watch.jpg",
-    "stock": 25
+    "stock": 25,
+     "rating":4
   },
   {
     "id": 16,
@@ -141,7 +157,8 @@
     "description": "Soft decorative pillow.",
     "category": "Home Decor",
     "image": "Products_images/throw_pillow.jpg",
-    "stock": 180
+    "stock": 180,
+     "rating":4
   },
   {
     "id": 17,
@@ -150,7 +167,8 @@
     "description": "4-slice toaster.",
     "category": "Appliances",
     "image": "Products_images/toaster.jpg",
-    "stock": 70
+    "stock": 70,
+     "rating":4
   },
   {
     "id": 18,
@@ -159,7 +177,8 @@
     "description": "Waterproof hiking boots.",
     "category": "Footwear",
     "image": "Products_images/hiking_boots.jpg",
-    "stock": 45
+    "stock": 45,
+     "rating":4
   },
   {
     "id": 19,
@@ -168,7 +187,8 @@
     "description": "Office desk organizer.",
     "category": "Office Supplies",
     "image": "Products_images/desk_organizer.jpg",
-    "stock": 140
+    "stock": 140,
+     "rating":4
   },
   {
     "id": 20,
@@ -177,7 +197,8 @@
     "description": "Workout resistance bands.",
     "category": "Sports",
     "image": "Products_images/resistance_bands.jpg",
-    "stock": 160
+    "stock": 160,
+     "rating":4
   },
   {
     "id": 21,
@@ -186,7 +207,8 @@
     "description": "Modern floor lamp.",
     "category": "Lighting",
     "image": "Products_images/floor_lamp.jpg",
-    "stock": 55
+    "stock": 55,
+     "rating":4
   },
   {
     "id": 22,
@@ -195,7 +217,8 @@
     "description": "Ceramic mug set.",
     "category": "Kitchen",
     "image": "Products_images/mug_set.jpg",
-    "stock": 220
+    "stock": 220,
+     "rating":4
   },
   {
     "id": 23,
@@ -204,7 +227,8 @@
     "description": "Mechanical keyboard.",
     "category": "Electronics",
     "image": "Products_images/keyboard.jpg",
-    "stock": 85
+    "stock": 85,
+     "rating":4
   },
   {
     "id": 24,
@@ -213,7 +237,8 @@
     "description": "Canvas tote bag.",
     "category": "Bags",
     "image": "Products_images/tote_bag.jpg",
-    "stock": 130
+    "stock": 130,
+     "rating":4
   },
   {
     "id": 25,
@@ -222,7 +247,8 @@
     "description": "Healthy cooking air fryer.",
     "category": "Appliances",
     "image": "Products_images/air_fryer.jpg",
-    "stock": 35
+    "stock": 35,
+     "rating":4
   },
   {
     "id": 26,
@@ -231,7 +257,8 @@
     "description": "Stylish cap hat.",
     "category": "Accessories",
     "image": "Products_images/hat.jpg",
-    "stock": 170
+    "stock": 170,
+     "rating":4
   },
   {
     "id": 27,
@@ -240,7 +267,8 @@
     "description": "Colorful pen set.",
     "category": "Stationery",
     "image": "Products_images/pen_set.jpg",
-    "stock": 280
+    "stock": 280,
+     "rating":4
   },
   {
     "id": 28,
@@ -249,7 +277,8 @@
     "description": "Foldable treadmill.",
     "category": "Sports",
     "image": "Products_images/treadmill.jpg",
-    "stock": 15
+    "stock": 15,
+     "rating":4
   },
   {
     "id": 29,
@@ -258,7 +287,8 @@
     "description": "Modern wall clock.",
     "category": "Home Decor",
     "image": "Products_images/wall_clock.jpg",
-    "stock": 95
+    "stock": 95,
+     "rating":4
   },
   {
     "id": 30,
@@ -267,6 +297,7 @@
     "description": "Cordless vacuum cleaner.",
     "category": "Appliances",
     "image": "Products_images/vacuum_cleaner.jpg",
-    "stock": 65
+    "stock": 65,
+     "rating":4
   }
 ]
