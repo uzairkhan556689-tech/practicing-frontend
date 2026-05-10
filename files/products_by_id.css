@@ -1,0 +1,170 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    padding: 30px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color:     rgb(245, 245, 245);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0 green,0 blue,1 alpha);
+  padding: 30px;
+
+}
+/* .loader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 15px;
+
+
+}
+ .spinner{
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid#d4a59a;
+  border-radius:50%;
+  animation: spin 1s linear infinite;
+
+}
+@keyframes spin{
+  0%{ transform: rotate(0deg);}
+  100%{transform: rotate(365deg);}
+  
+}
+#loader p{
+  color: #666;
+  font-size: 16px; 
+} */
+.product_detile{
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+@media  (max-width:768px)
+
+{.product_detile{
+  flex-direction: column;
+  gap: 15px;
+}
+.product_image{
+  width: 100%;
+  text-align: center;
+}
+.product_image img{
+  width: 100%;
+  max-width: 300px;
+}
+.product_info h1{
+  font-size: 24px;
+  word-break: break-word;
+}
+.product_info{
+  width: 100%;
+}
+
+}
+/* .product_image{
+  flex: 0 0 400px;
+} */
+.product_image img{
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+.product_info{
+   flex:1;
+}
+.product_info h1{
+  font-size: 32px;
+  color: #222;
+  margin-bottom:15px ;
+
+}
+.product_price{
+  font-size: 28px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.product_descrip{
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom:20px ;
+}
+
+.similar_section{
+ margin-top: 40px;
+ border-top: 2px solid #eee;
+
+}
+.similar_titel{
+ font-size: 24px;
+ margin-bottom: 20px;
+}
+.simialr_container{
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+.similar_card{
+  min-width: 180px;
+  border: 1px solid #ddd;
+  border-radius:8px ;
+  padding: 12px;
+  text-align: center;
+
+}
+.similar_card:hover{
+  box-shadow:  0 15px rgba(0,0,0,0.1);
+}
+.similar_imag{
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+
+}
+.sim_name{
+
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+}.price{
+  font-size: 16px;
+  font-weight: 600;
+  color: #007bff;
+}
+.view-btn{
+  background: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 8px;
+  
+}.view1-btn{
+  
+  background: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 8px;
+}
+ 

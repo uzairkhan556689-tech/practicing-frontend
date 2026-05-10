@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Details</title>
-    <script>
-        // Get the product ID from the URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const productId = urlParams.get('id');
+    <body>
 
-        const product = products.find(p => p.id == productId);
+       <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="products_by_id.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <a href="main.html"> <button class="view-btn" >GO BACK</button></a>
+      
+      <div id="product">loding...</div>
+     <div class="similar_section">
+      <h2 class="similar_titel">similar products</h2>
+       <div id="similar" class="simialr_container"></div>
+     </div>
+    
+    </div>
+ <script src="products_by_id.js"></script>
 
-        if (product) {
-            document.getElementById('product-name').textContent = product.name;
-            document.getElementById('product-description').textContent = product.description;
-            document.getElementById('product-price').textContent = `$${product.price.toFixed(2)}`;
-            document.getElementById('product-category').textContent = product.category;
-            document.getElementById('product-stock').textContent = product.stock;
-        } else {
-            document.querySelector('.product-details').innerHTML = '<h1>Product not found</h1>';
-        }
-    </script>
-</body>
+  </body>
 </html>
